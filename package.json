@@ -1,0 +1,27 @@
+{
+  "name": "librarymanagementsystem",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx jest --verbose",
+    "dev": "node --watch ./src/index.js",
+    "start": "node ./src/index.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.3"
+  }
+}
